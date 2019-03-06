@@ -1,7 +1,7 @@
 
 Inicie o repositório com usa foto legível. Ela vai aparecer na tela do mesmo tamanho que ela for originalmente, então se precisar diminua para menos que 400pixels.
 
-![](sua_foto.jpg)
+![](20170122_111141-1.jpg)
 
 # Exemplo de repositório para Disciplina
 
