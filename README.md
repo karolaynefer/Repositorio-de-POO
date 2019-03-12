@@ -5,7 +5,7 @@ Eu fiz a questão completa, com o meu namorado. Aprendi a fazer a parte do menu 
 
 ## 02 - Calculadora
 
-Consegui concluir a questão, tive ajuda do meu namorado apenas em algumas partes do codigo, aprendi a fazer o codigo quase todo e tivi dificuldade apenas na parte de converter no momento de imprimir, levei menos de 1h para terminar.
+Consegui concluir a questão, tive ajuda do meu namorado apenas em algumas partes do codigo, aprendi a fazer o codigo quase todo e tive dificuldade apenas na parte de converter no momento de imprimir, levei menos de 1h para terminar.
 
 ## 03 - Pet
 
