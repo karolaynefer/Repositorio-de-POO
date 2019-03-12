@@ -1,4 +1,3 @@
-![](minhafoto.jpg)
 
 ## 01 - Carro
 
