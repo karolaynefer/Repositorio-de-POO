@@ -10,6 +10,19 @@ Consegui concluir a questão, tive ajuda do meu namorado apenas em algumas parte
 ## 03 - Pet
 
 - O que você fez
+    - Fiz a questao completa.
+- Com quem e como você fez
+    - com amigos
+- O que aprendeu e sabe fazer
+        - aprendi a fazer a parte de brincar, comer e banho.
+- O que tem dificuldade ainda
+        - Tenho bastante dificuldade em pensar em como fazer em  java ainda, mas isso vai melhorar aos poucos.
+
+- Quanto tempo levou pra fazer a atividade
+
+## 04 - Topique de luxo
+
+- O que você fez
     - fiz bla bla bla
 - Com quem e como você fez
     - fiz bla bla bla
