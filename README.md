@@ -41,11 +41,11 @@
 ## 04 - Topique de luxo
 
 - O que você fez
-    - fiz a metade da questão
+    - fiz duas versoes da questao a primeira estava incompleta e a outra que enviei esta completa.
 - Com quem e como você fez
-    - fiz na sala de aula com o auxilio de amigos
+    - fiz na sala de aula com o auxilio de amigos.
 - O que aprendeu e sabe fazer
-    - 
+    - aprendi a fazer 
 - O que tem dificuldade ainda
     -
 - Quanto tempo levou pra fazer a atividade
