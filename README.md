@@ -50,3 +50,16 @@
     - Ainda tenho bastante dificuldade em pensar em como fazer em  java, mas isso vai melhorar aos poucos.
 - Quanto tempo levou pra fazer a atividade
     - levei mais de 1h  para conseguir comcluir a atividade.
+    
+    ## 05 - Ajiota
+
+- O que você fez
+    - A questao ainda esta em andamento e ainda nao enviei.
+- Com quem e como você fez
+    - 
+- O que aprendeu e sabe fazer
+    - 
+- O que tem dificuldade ainda
+    - 
+- Quanto tempo levou pra fazer a atividade
+    -levei mais de 2h para conseguir terminar.
