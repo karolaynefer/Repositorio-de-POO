@@ -45,7 +45,7 @@
 - Com quem e como você fez
      - fiz na sala de aula com o auxilio de amigos.
 - O que aprendeu e sabe fazer
-    - 
+    - ......
 - O que tem dificuldade ainda
     - Ainda tenho bastante dificuldade em pensar em como fazer em  java, mas isso vai melhorar aos poucos.
 - Quanto tempo levou pra fazer a atividade
