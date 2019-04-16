@@ -1,5 +1,5 @@
 
-package ptulomeu;
+package ajiota;
 
 class Transação{
     int id;
