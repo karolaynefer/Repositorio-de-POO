@@ -1,5 +1,5 @@
 ![](foto.jpg)
-## 01 - Carro
+## 01 - Carro (Python)
 
 - O que você fez
     - Fiz a questao completa.
@@ -12,7 +12,7 @@
 - Quanto tempo levou pra fazer a atividade
     -levei mais de 1h para conseguir terminar.
 
-## 02 - Calculadora Python
+## 02 - Calculadora (Python)
 
 - O que você fez
     - Consegui concluir a questão
