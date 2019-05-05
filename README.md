@@ -51,7 +51,7 @@
 - Quanto tempo levou pra fazer a atividade
     - levei mais de 1h  para conseguir comcluir a atividade.
     
-    ## 05 - Agiota
+    ## 06 - Agiota
 
 - O que você fez
     - A questao ainda esta em andamento.
