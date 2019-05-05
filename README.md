@@ -45,7 +45,7 @@
 - Com quem e como você fez
      - fiz na sala de aula com o auxilio de amigos.
 - O que aprendeu e sabe fazer
-    - ......
+    - Aprendi a remover os passageiros e a inserir passageiros.
 - O que tem dificuldade ainda
     - Ainda tenho bastante dificuldade em pensar em como fazer em  java, mas isso vai melhorar aos poucos.
 - Quanto tempo levou pra fazer a atividade
@@ -54,12 +54,12 @@
     ## 06 - Agiota
 
 - O que você fez
-    - A questao ainda esta em andamento.
+    - Fz duas versões da questão na primeira fiz a metade da questão e na segunda versão conclui a questão.
 - Com quem e como você fez
-    - ...
+    - Fiz com ajuda de amigos.
 - O que aprendeu e sabe fazer
     - ...
 - O que tem dificuldade ainda
-    - ...
+    - Ainda tenho bastante dificuldade por não ter tempo suficiente para programar, mas a maior dificuldade nesse codigo foi em cadastrar.
 - Quanto tempo levou pra fazer a atividade
-    - ...
+    - Mais de 1h.
