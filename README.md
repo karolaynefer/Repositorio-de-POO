@@ -1,4 +1,4 @@
-![](foto.jpg)
+![]C:\Users\karol\Downloads\foto.jpg()
 ## 01 - Carro
 
 - O que você fez
