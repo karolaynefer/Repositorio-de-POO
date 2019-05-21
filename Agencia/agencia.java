@@ -20,19 +20,18 @@ class cliente{
     
 }
 
-class Conta{
+class Conta extends cliente{
         int id_conta;
-        float saldo;
+        float saldo;     
         
-        public Conta(int id_conta,float saldo){
-           
-            this.id_conta = id_conta;
-            this.saldo = saldo;
-            
-        }
-
-    public String toString() {
-        return "conta{" + "id_conta=" + id_conta + ", saldo=" + saldo + '}';
+    public Conta(String id,int num) {
+        super(id);
+        this.id_conta += num;
+        this.saldo = saldo;
+    }    
+    
+    public String toString(){
+        return "conta:"+id_conta+"|nome:"+id+"|saldo:"+saldo;
     }
         
         
@@ -40,11 +39,12 @@ class Conta{
 
 
 class corrente extends Conta{
-  
-    public corrente(int id_conta, float saldo) {
-        super(id_conta, saldo);
+
+    public corrente(String id, int num) {
+        super(id, num);
     }
 
+    
     @Override
    public String toString() {
 		return super.toString()+ " CC";
@@ -54,9 +54,10 @@ class corrente extends Conta{
 
 class poupanca extends Conta{
 
-    public poupanca(int id_conta, float saldo) {
-        super(id_conta, saldo);
+    public poupanca(String id, int num) {
+        super(id, num);
     }
+
     
     public String toString() {
 		return super.toString()+ " CP";
@@ -64,44 +65,52 @@ class poupanca extends Conta{
 }
 
 class banco{
-        ArrayList<cliente>clientes;
+ 
         ArrayList<Conta>contas;
         
         public banco(){
-            clientes = new ArrayList<cliente>();
             contas = new ArrayList<Conta>();
         }
        
-        public void addcli(cliente cli){
-            try {
-            this.findCliente(cli.id);
-            throw new RuntimeException("Cliente ja exite");
-        }catch(RuntimeException re){
-           clientes.add(cli);
-           
-        }
-       }
         public void addconta(Conta c){
             contas.add(c);
         }
-           
-        
-        
-        cliente findCliente(String id) {
-            
-            for (cliente cli : clientes) {
-                if (cli.id.equals(id))
-                    return cli;
-            }
-            throw new RuntimeException("fail: cliente nao existe");
+        public void deposito(int id_conta,int depo){
+            for(Conta c : contas){
+                if(c.id_conta == id_conta){
+                    c.saldo += depo;
+                    break;
+                }    
+          }   
         }
         
-        public String toString() {
-		return " "  +clientes+contas;
-	}
+        public void saque(int id_conta,int saque){
+            for (Conta c : contas){
+                if(c.id_conta == id_conta){
+                    if(c.saldo > saque){
+                        this.contas.get(id_conta).saldo -= saque;
+                        break;
+                    }else{
+                        System.out.println("Processo não Efetuado\nContia Superior ao Saldo");
+                        }
+                    }
+                else{
+                    throw new RuntimeException("Cliente Não Existe");
+                        }
+                }    
+          }
         
-            
-
+        public void transferencia(int id_conta1,int id_conta2,int valor){
+                saque(id_conta1, valor);
+                deposito(id_conta2, valor);
+        }
+        
+     
+    public String toString() {
+        return "banco{" + "contas=" + contas + '}';
+    }
+        
+        
 }
 
 public class agencia {
@@ -109,24 +118,28 @@ public class agencia {
     public static void main(String[] args) {
         
         banco b = new banco();
+        int num_conta = 0;
         
         Scanner scan = new Scanner(System.in);
         while(true){
             String line = scan.nextLine();
             String[] ui = line.split(" ");
             try{
-                if (ui[0].equals("sair")){
+                if (ui[0].equals("out")){
                     break;
                 }else if(ui[0].equals("add")){
-                    
+                    b.contas.add(new corrente(ui[1],num_conta));
+                    num_conta +=1;
+                    b.contas.add(new poupanca(ui[1],num_conta));
+                    num_conta +=1;
                 }else if(ui[0].equals("show")){
-                   
+                    System.out.println(b.contas);
                 }else if(ui[0].equals("depo")){
-                    
+                    b.deposito(Integer.parseInt(ui[1]),Integer.parseInt(ui[2]));
                 }else if(ui[0].equals("saq")){
-                    
+                    b.saque(Integer.parseInt(ui[1]),Integer.parseInt(ui[2]));
                 }else if(ui[0].equals("tran")){
-                    
+                   b.transferencia(Integer.parseInt(ui[1]),Integer.parseInt(ui[2]),Integer.parseInt(ui[3]));
                 }
             }catch(RuntimeException re){
                 System.out.println(re.getMessage());
