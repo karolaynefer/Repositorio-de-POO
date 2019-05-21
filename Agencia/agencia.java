@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 import agencia.Conta;
 import agencia.cliente;
+import java.util.Arrays;
 
 class cliente{
     String id;
@@ -75,34 +76,48 @@ class banco{
         public void addconta(Conta c){
             contas.add(c);
         }
-        public void deposito(int id_conta,int depo){
-            for(Conta c : contas){
-                if(c.id_conta == id_conta){
-                    c.saldo += depo;
-                    break;
-                }    
-          }   
+        
+        Conta find(int id){
+             for(Conta c : contas){
+                 if(c.id_conta == id){
+                    return c;
+                 }
+             }
+            throw new RuntimeException("Cliente Não Existe");
         }
         
+        public void deposito(int id_conta,int depo){
+                    Conta c = find(id_conta);
+                    c.saldo += depo;
+        }
+              
         public void saque(int id_conta,int saque){
-            for (Conta c : contas){
-                if(c.id_conta == id_conta){
+                    Conta c = find(id_conta);
                     if(c.saldo > saque){
                         this.contas.get(id_conta).saldo -= saque;
-                        break;
                     }else{
                         System.out.println("Processo não Efetuado\nContia Superior ao Saldo");
-                        }
                     }
-                else{
-                    throw new RuntimeException("Cliente Não Existe");
-                        }
-                }    
           }
         
         public void transferencia(int id_conta1,int id_conta2,int valor){
                 saque(id_conta1, valor);
                 deposito(id_conta2, valor);
+        }
+        
+        public void update(){
+            int taxacc = 20;
+            float taxacp = (1.0f/100.0f);
+            Conta c = null;
+            for(int i = 0;i<contas.size();i++ ){
+               if(i == 0 || i % 2 == 0){
+                   c = find(i);
+                   this.contas.get(i).saldo -= taxacc;
+               }else{
+                   c = find(i);
+                   c.saldo += c.saldo*taxacp;
+               }
+            }
         }
         
      
@@ -140,7 +155,10 @@ public class agencia {
                     b.saque(Integer.parseInt(ui[1]),Integer.parseInt(ui[2]));
                 }else if(ui[0].equals("tran")){
                    b.transferencia(Integer.parseInt(ui[1]),Integer.parseInt(ui[2]),Integer.parseInt(ui[3]));
+                }else if(ui[0].equals("up")){
+                  b.update();;
                 }
+                
             }catch(RuntimeException re){
                 System.out.println(re.getMessage());
             }
