@@ -25,7 +25,7 @@
 - Quanto tempo levou pra fazer a atividade
     - levei menos de 1h para terminar.
 
-## 03 - Pet
+## 04 - Pet
 
 - O que você fez
     - Fiz a questao completa.
@@ -38,7 +38,7 @@
 - Quanto tempo levou pra fazer a atividade
     - levei mais de 1h  para conseguir comcluir a atividade.
 
-## 04 - Topique de luxo
+## 05 - Topique de luxo
 
 - O que você fez
     - fiz duas versoes da questao a primeira estava incompleta e a outra que enviei esta completa.
@@ -51,7 +51,20 @@
 - Quanto tempo levou pra fazer a atividade
     - levei mais de 1h  para conseguir concluir a atividade.
     
-    ## 06 - Agiota
+    ## 06 - Contato
+
+- O que você fez
+    - fiz apenas o começo da questão pois tive bastante dificuldade nela.
+- Com quem e como você fez
+    - 
+- O que aprendeu e sabe fazer
+    - 
+- O que tem dificuldade ainda
+    - 
+- Quanto tempo levou pra fazer a atividade
+    - 
+    
+    ## 07 - Agiota
 
 - O que você fez
     - Fiz duas versões da questão, na primeira fiz a metade da questão e na segunda versão conclui a questão.
@@ -63,3 +76,16 @@
     - Ainda tenho bastante dificuldade por não ter tempo suficiente para programar, mas a maior dificuldade nesse codigo foi em cadastrar.
 - Quanto tempo levou pra fazer a atividade
     - Mais de 1h.
+    
+  ## 09 - Empresa
+
+- O que você fez
+    - Não consegui concluir ainda a atividade.
+- Com quem e como você fez
+    - Fiz sozinha
+- O que aprendeu e sabe fazer
+    - Aprendi a usar melhor os get e set.
+- O que tem dificuldade ainda
+    - 
+- Quanto tempo levou pra fazer a atividade
+    - 
