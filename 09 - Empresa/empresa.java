@@ -1,10 +1,9 @@
-
 package empresa;
-
 import java.util.Scanner;
 
+
 class Funcionario {
-    protected String nome;
+    private String nome;
     protected double salario;
 
     public Funcionario(String nome, double salario) {
@@ -23,7 +22,7 @@ class Funcionario {
 }
 
 class Gerente extends Funcionario {
-    protected String senha;
+    private String senha;
 
     public Gerente(String nome, double salario, String senha) {
         super(nome, salario);
@@ -35,17 +34,48 @@ class Gerente extends Funcionario {
     String Demitir () {
         return "Demiti um funcionario";
     }
-
+    public double getbonificacao() {
+        return this.salario * 0.15;
+}
     @Override
     public String toString() {
         return "Gerente:" + super.toString();
-    }
 }
 
-public class Empresa {
-   
-    public static void main(String[] args) {
-        Empresa emp = new Empresa();
+    double getSalario() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+    
+   }
+
+class Diretor extends Gerente {
+    double gratificacao;
+    
+    public Diretor (String nome, double salario,String senha, double gratificacao) {
+        super(nome, salario, senha);
+        this.gratificacao = gratificacao;   
+    
+    } 
+    
+    public double getBonificacao (){
+    return super.getBonificacao() * 0.15;  
+        
+}
+	public double getSalario(){
+    	return super.getSalario() + gratificacao;
+
+}
+        @Override
+	public String toString() {
+		return super.toString() + ":" + gratificacao;
+
+        }
+}
+    
+
+public class empresa {
+   public static void main(String[] args) {
+      
 		Scanner scan = new Scanner(System.in);
 		
 		while(true) {
@@ -54,4 +84,8 @@ public class Empresa {
 		if(ui[0].equals("end")) {
 			break;
                 }
+                
+               }
+   }
+}
 
