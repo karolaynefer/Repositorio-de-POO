@@ -89,3 +89,16 @@
     - Tenho dificuldade em fazer a parte da classe empresa.
 - Quanto tempo levou pra fazer a atividade
     - mais de 2hs
+    
+## 10 - Agencia 
+
+- O que você fez
+    - Conclui a atividade.
+- Com quem e como você fez
+    - Fiz sozinha e com auxilio da internet.
+- O que aprendeu e sabe fazer
+    - Aprendi a usar melhor o get.
+- O que tem dificuldade ainda
+    - Tive dificuldade em fazer a parte da classe update e um pouco da classe banco.
+- Quanto tempo levou pra fazer a atividade
+    - mais 5 hs.
