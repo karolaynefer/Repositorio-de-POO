@@ -54,15 +54,15 @@
     ## 06 - Contato
 
 - O que você fez
-    - fiz apenas o começo da questão pois tive bastante dificuldade nela.
+    - fiz apenas o começo da questão...
 - Com quem e como você fez
-    - 
+    - ...           
 - O que aprendeu e sabe fazer
-    - 
+    - ....
 - O que tem dificuldade ainda
-    - 
+    - ....
 - Quanto tempo levou pra fazer a atividade
-    - 
+    - ....
     
     ## 07 - Agiota
 
@@ -80,12 +80,12 @@
   ## 09 - Empresa
 
 - O que você fez
-    - Não consegui concluir ainda a atividade.
+    - Conclui a atividade fiz todas as classes porem tive dificuldade em fazer a parte da classe empresa.
 - Com quem e como você fez
-    - Fiz sozinha
+    - Fiz sozinha e com auxilio do video.
 - O que aprendeu e sabe fazer
-    - Aprendi a usar melhor os get e set.
+    - Aprendi a usar melhor o get.
 - O que tem dificuldade ainda
-    - 
+    - Tenho dificuldade em fazer a parte da classe empresa.
 - Quanto tempo levou pra fazer a atividade
-    - 
+    - mais de 2hs
